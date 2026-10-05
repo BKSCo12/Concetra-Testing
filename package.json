@@ -1,9 +1,11 @@
 {
-  "name": "bk-carrier-shield-compliance-desk-reference",
+  "name": "bk-carrier-shield-compliance",
   "version": "1.0.0",
+  "description": "BK Carrier Shield Compliance Desk Reference - Non-DOT 5-Panel Rapid Drug Screen Protocol",
   "private": true,
   "scripts": {
-    "start": "node generate-pdf.js"
+    "start": "node generate-pdf.js",
+    "serve": "python -m http.server 8000 || python3 -m http.server 8000"
   },
   "dependencies": {
     "puppeteer": "^23.6.0"

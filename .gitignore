@@ -1,5 +1,7 @@
-# .gitignore
 node_modules/
 .DS_Store
 *.log
+npm-debug.log*
 BK_Carrier_Shield_Desk_Reference.pdf
+.env
+.env.local
