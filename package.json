@@ -1,0 +1,11 @@
+{
+  "name": "bk-carrier-shield-compliance-desk-reference",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node generate-pdf.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.6.0"
+  }
+}
